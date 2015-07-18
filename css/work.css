@@ -1,0 +1,12 @@
+@CHARSET "EUC-KR";
+
+#work .item { width:33.3%; height:220px;overflow:hidden;}
+#work .item img {display:block;}
+@media screen and (max-width: 900px){
+	#work .item { width:50%; }
+}
+
+@media screen and (max-width: 400px){
+	#work .item { width:100%; }
+}
+
